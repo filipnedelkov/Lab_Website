@@ -38,7 +38,7 @@
 	</nav>
   <div class="jumbotron">
     <h1 class="display-4">Fall 2019 stats</h1>
-    <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+    <p class="lead">Detailed information on how the Buffs are doing in the 2018 Football Season!</p>
     <hr class="my-4">
     <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
   </div>
@@ -49,20 +49,61 @@
 				2. A table listing 3 different football matches (Colorado State, Nebraska, & New Hampshire)
 				3. A second table listing the Win/Loss ratio for the season
 		-->
-  <table>
-	     <tr>
-		       <th>Header 1</th><th rowspan="2">Header 2</th>
-	     </tr>
-	     <tr>
-		       <td>Cell 1</td>
-	     </tr>
-	     <tr>
-		       <td>Cell 2 </td><td>Cell 3</td>
-	     <tr>
-	     <tr>
-           <!-- Edit the column span here -->
-	    </tr>
-</table>
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr align="center">
+          <th></th>
+          <th></th>
+          <th colspan="2">Score</th>
+          <th></th>
+        </tr>
+      </thead>
+      <thead>
+        <tr>
+          <th>Game Date</th>
+          <th>Opposing Team Name</th>
+          <th>Home Score</th>
+          <th>Opp. Score</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aug. 31, 2018</td>
+          <td>Colorado State</td>
+          <td>45</td>
+          <td>13</td>
+          <td>CU Boulder</td>
+        </tr>
+        <tr>
+          <td>Sept. 8, 2018</td>
+          <td>Nebraska</td>
+          <td>33</td>
+          <td>28</td>
+          <td>CU Boulder</td>
+        </tr>
+        <tr>
+          <td>Sept. 15, 2018</td>
+          <td>New Hampshire</td>
+          <td>45</td>
+          <td>14</td>
+          <td>CU Boulder</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table table-bordered table-hover">
+      <thead align="center">
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+        </tr>
+        <tr>
+          <td>1</th>
+          <td>0</th>
+        </tr>
+      </thead>
+    </table>
 	</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
